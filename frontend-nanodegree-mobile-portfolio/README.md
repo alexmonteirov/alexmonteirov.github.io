@@ -17,8 +17,8 @@ To run the app, you can download [here](https://github.com/alexmonteirov/fronten
 4. Used Web Font Loader to prevent render blocking by Google Fonts font load.
 
 PageSpeed Insights score:
-* Mobile: 96/100
-* Desktop: 95/100
+* Mobile: 95/100
+* Desktop: 94/100
 
 ### Part 2: Optimize Frames per Second in pizza.html
 
@@ -28,8 +28,8 @@ PageSpeed Insights score:
 2. Minified 'bootstrap-grid.min.css' that was provided.
 
 PageSpeed Insights score:
-* Mobile: 89/100
-* Desktop: 95/100
+* Mobile: 88/100
+* Desktop: 92/100
 
 #### Scrolling
 
