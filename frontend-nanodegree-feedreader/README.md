@@ -3,9 +3,9 @@
 This is my project created for the Nanodegree Front End course of Udacity. Using the Jasmine testing framework, we created several tests for an RSS Feeds Reader application.
 
 ### Project elements:
-- If all feeds have URLs defined and not empty, that is, if each object inside the ```allFeeds``` array has a url attribute
-qnd if this attribute is not equal to an empty string ```''```
-- If all feeds have name defined and not empty, that is, if each object inside the ```allFeeds``` array has a name attribute and if that attribute is not equal to an empty string ```''```
+- If all feeds have URLs defined and not empty, that is, if each object inside the ```allFeeds``` array has a url defined
+and if this attribute is not equal to length zero.
+- If all feeds have name defined and not empty, that is, if each object inside the ```allFeeds``` array has a name defined and if that attribute is not equal to length zero.
 - If the application menu is hidden by default.
 - If the menu button shows and hides the menu successfully.
 - If the feed loads successfully, that is, if ```loadFeed``` (asynchronous function) after completing its execution, it generates at least one ```.entry``` element within the ```.feed```
@@ -28,3 +28,5 @@ Feed Reader
 - [Jasmine Docs](https://jasmine.github.io/api/2.6/global)
 - [Rafael Fabeni - Playing with Jasmine](http://www.raphaelfabeni.com.br/brincando-com-jasmine/)
 - [HTML Goodies](http://www.htmlgoodies.com/beyond/javascript/testing-javascript-using-the-jasmine-framework.html)
+- [@use JSDoc](http://usejsdoc.org/tags-author.html)
+- [JavaScript Use Strict](https://www.w3schools.com/js/js_strict.asp)
